@@ -1,0 +1,211 @@
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.heading{
+
+    margin: auto;
+    text-align: center;
+    height: 64px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom:30px ;
+}
+.heading-main{
+    margin: 0;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+}
+.heading-sub{
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.speaker-slider{
+    display: flex;
+    align-items: center;
+}
+.slider-container{
+    display: flex;
+    margin: auto;
+    gap:20px;
+    padding: 10px;
+    width:1200px;
+    overflow-x:auto;
+    scroll-behavior: smooth;
+}
+.slider-container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
+
+.speaker-card{
+    height: 285px;
+    width: 264px;
+    padding: 36px 21px ;
+    text-align: center;
+    box-shadow: 4px 10px 24px 0px rgba(0, 0, 0, 0.1);
+
+}
+.inner-block{
+    height: 249px;
+    width: 243px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.picture{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+.block-element{
+    height: 83px;
+    width: 243px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.details{
+    height: 39px;
+    
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+.name{
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+.role{
+    margin: 0;
+    font-weight: 600;
+    line-height: 18px;
+    font-size: 18px;
+}
+.company{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+
+}
+.popover{
+    display: none;
+    margin: auto;
+    margin-bottom: 50px;
+    height: 233px;
+    width: 1140px;
+    padding:36px 30px;
+    box-shadow: 4px 10px 24px 0px rgba(0, 0, 0, 0.1);
+
+    
+}
+.popover-inner{
+    margin: auto;
+    width: 1140px;
+    height: 161px;
+    display: flex;
+    gap: 20px;
+}
+.basic-details{
+    height: 150px;
+    width: 368px;
+    display: flex;
+    gap: 16px;
+}
+.basic-details-pic{
+    height: 150px;
+    width: 150px;
+}
+.basic-details-about{
+    height: 118px;
+    width: 202px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.names{
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.names-main{
+height: 57px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.names-main-1{
+    margin: 0;
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.names-main-2{
+    margin: 0;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.names-sub{
+    margin: 0;
+    line-height: 16px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.social-media{
+    height: 24px;
+    width: 102px;
+    display: flex;
+    gap: 16px;
+}
+.speaker-description{
+    height: 116px;
+    width: 732px;
+}
+.text{
+    margin-top: 20px;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.close-button{
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.allprogram{
+    width: 405px;
+    height: 58px;
+    padding: 20px 66px;
+    background: rgba(0, 63, 180, 1);
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+   
+}
+.allprogram :hover{
+    cursor: pointer;
+}
+.button-title{
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+
+}

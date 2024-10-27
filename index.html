@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speaker Slider</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="heading">
+      <p class="heading-main">View our Featured Speakers for the Event</p>
+      <p class="heading-sub">
+        Speakers are core contributors and industry thought leaders working at
+        companies that push for innovation.
+      </p>
+    </section>
+    <article class="popover" >
+      <article class="popover-inner">
+        <div class="basic-details">
+            <div class="basic-details-pic">
+                <img class="speaker-photo" src="./pictures/Ellipse 23.svg" alt="">
+            </div>
+            <div class="basic-details-about">
+                <article class="names">
+                    <article class="names-main">
+                        <p class="names-main-1">John Doe</p>
+                        <p class="names-main-2">Chief Marketing Office</p>
+                    </article>
+                    <p class="names-sub">Specbee</p>
+                </article>
+                <article class="social-media">
+                    <img src="./pictures/Group 427318045.svg" alt="">
+                    <img src="./pictures/ri_twitter-x-fill.svg" alt="">
+                    <img src="./pictures/Vector2.svg" alt="">
+                </article>
+            </div>
+        </div>
+        <div class="line"><img src="./pictures/Line 1.svg" alt="" /></div>
+        <div class="speaker-description">
+          <p class="text">
+            Monotonectally synergize business communities rather than
+            client-centric convergence. Assertively unleash cross-platform best
+            practices rather than pandemic total linkage. Synergistically
+            monetize parallel infomediaries whereas 2.0 mindshare. Dramatically
+            pursue real-time markets through e-business strategic theme areas.
+          </p>
+        </div>
+      </article>
+      <div class="close-button" onclick="closePopover()">
+        <img src="./pictures/Vector.svg" alt="" />
+      </div>
+    </article>
+    <section class="speaker-slider">
+      <div onClick="slideLeft()"><img src="./pictures/left_button.svg" alt=""></div>
+      <div class="slider-container"></div>
+      <div onClick="slideRight()"><img src="./pictures/right_button.svg" alt=""></div>
+    </section>
+    <button class="allprogram">
+        <p class="button-title">See the Program</p>
+    </button>
+   
+
+    <script src="script.js"></script>
+  </body>
+</html>
